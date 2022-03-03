@@ -1,0 +1,191 @@
+.header-Blog
+{
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    z-index: 2;
+}
+.Blog-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(80,49,67,.8);
+    z-index: -1;
+}
+.content nav ol li a
+{
+    color: #79ad9f !important;
+}
+@media screen  and (max-width: 767px)
+{
+    .content nav ol
+    {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+.size-font
+{
+    font-size: 1.25rem;
+    color: #1e1e1e;
+}
+.span-after
+{
+    position: relative;
+}
+.span-after::after
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -10px;
+    width: 5px;
+    height: 28px;
+    background: #503143;
+}
+.color-span
+{
+    color: #c49b60;
+}
+.color-a
+{
+    color: #79ad9f;
+}
+.color-a:hover
+{
+    color: #79ad9f;
+}
+.shape-italic
+{
+    font-style: italic;
+    width: 80%;
+    font-size: 1.25rem;
+    position: relative;
+}
+.shape-italic::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background: #503143;
+    width: 5px;
+    height: 80px;
+}
+
+
+/* ===== aside ===== */
+.head-search
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-left: 5px solid #503143;
+    padding-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.head-card
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-left: 5px solid #503143;
+    padding-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.search-input
+{
+    border: 1px solid #503143;
+    width: 80%;
+    padding: 5px ;
+}
+.btn-search i
+{
+    font-size: 1.5rem !important;
+    color: #c49b60;
+}
+
+.card-body
+{
+    position: relative;
+}
+.nadia::after
+{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    left: 0;
+    background-color: #0078ff;
+    top: 50px;
+}
+.text-purple
+{
+    color: #503143 !important;
+}
+.card-text
+{
+    cursor: pointer;
+    color: #1e1e1e;
+    padding: 2px !important;
+}
+.card-text:hover
+{
+    color: #79ad9f;
+}
+
+.badge
+{
+    background: #c49b60;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff !important;
+    font-size: 1.25rem;
+    text-decoration: none !important;
+    margin-top: 10px;
+}
+article h4
+{
+    margin-bottom: 30px;
+}
+.article-h4
+{
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+.article-h4::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #503143;
+    width: 100px;
+    height: 4px;
+}
+.information p span
+{
+    font-style: italic;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+.information a
+{
+    color: #503143;
+}
+.line4
+{
+    width: 100px;
+    height: 3px;
+    background: #503143;
+}
+.size-h5
+{
+    font-size: 2rem;
+}
